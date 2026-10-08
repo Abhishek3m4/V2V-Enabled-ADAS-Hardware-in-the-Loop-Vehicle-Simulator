@@ -41,7 +41,7 @@ The simulator provides a controlled virtual environment for vehicle control, col
 
 | 🕹️ Hardware-in-the-Loop Setup | 🛣️ RoadRunner Highway Scenario |
 |:---:|:---:|
-| <img src="./assets/Hardware_setup.png" width="480" alt="Hardware setup"/> | <img src="./assets/Highway_merge_control.png" width="480" alt="RoadRunner highway merge scenario"/> |
+| <img src="./assets/Hardware_setup.png" width="480" alt="Hardware setup"/> | <img src="./assets/Highway_merge_control.jpeg" width="480" alt="RoadRunner highway merge scenario"/> |
 | **Physical HIL control setup** | **Highway merge control scenario** |
 
 </div>
