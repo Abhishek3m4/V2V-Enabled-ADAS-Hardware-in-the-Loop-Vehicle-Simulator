@@ -2,11 +2,11 @@
 
 <div align="center">
 
-<a href="https://github.com/Abhishek3m4/V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=V2V-Enabled%20ADAS%20Hardware-in-the-Loop%20Vehicle%20Simulator&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Project Header"/>
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=165&section=header&text=V2V-ENABLED%20ADAS%20HIL%20VEHICLE%20SIMULATOR&fontSize=27&fontColor=ffffff&animation=fadeIn&fontAlignY=42" alt="V2V-Enabled ADAS HIL Vehicle Simulator"/>
 
-<p><strong>Hardware-in-the-loop automotive simulation for V2V-enabled ADAS development and testing.</strong></p>
+<strong>Hardware-in-the-loop automotive simulation for V2V-enabled ADAS development and testing.</strong>
+
+<br><br>
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-orange?logo=mathworks&logoColor=white)
 ![Simulink](https://img.shields.io/badge/Simulink-Control%20Modeling-orange?logo=mathworks&logoColor=white)
@@ -18,57 +18,163 @@
 
 </div>
 
+---
+
 ## 🚗 Overview
 
-A hardware-in-the-loop vehicle simulator that connects **physical driving controls** with **MATLAB/Simulink + RoadRunner** to develop and test V2V-enabled ADAS functions in a controlled virtual environment.
+A **hardware-in-the-loop vehicle simulator** that connects physical driving controls with **MATLAB/Simulink and RoadRunner** for V2V-enabled ADAS development and scenario-based testing.
 
-The project focuses on automotive control, scenario-based testing, collision avoidance and Indian-road simulation workflows without requiring a physically moving autonomous vehicle.
+The simulator provides a controlled virtual environment for vehicle control, collision-avoidance and Indian-road traffic scenarios without requiring a physically moving autonomous vehicle.
 
 ## ✨ Key Features
 
-- 🎮 **Hardware-in-the-Loop** — Interface a steering wheel, accelerator and brake pedals with the simulation environment.
-- 📡 **V2V Communication** — Exchange vehicle-state information for cooperative driving and safety logic.
-- 🛡️ **ADAS Concepts** — Platform for functions such as AEB and vehicle safety assistance.
-- 🌐 **3D Vehicle Simulation** — Build and test traffic scenarios in RoadRunner.
-- 🔄 **MATLAB Integration** — Control and analyze RoadRunner simulations programmatically from MATLAB.
-- 🧪 **Scenario-Based Testing** — Reproduce repeatable multi-vehicle situations for development and validation.
+- 🎮 **HIL Driving Interface** — Steering wheel, accelerator and brake controls connected to the simulation.
+- 📡 **V2V Communication** — Vehicle-state exchange for cooperative driving and safety functions.
+- 🛡️ **ADAS Functions** — Development platform for safety concepts such as AEB.
+- 🌐 **3D Simulation** — RoadRunner-based virtual vehicle and traffic scenarios.
+- 🔄 **MATLAB Integration** — MATLAB/Simulink control and simulation workflow.
+- 🧪 **Scenario Testing** — Repeatable multi-vehicle scenarios for testing and validation.
 
-## 🎥 Demo / Screenshots
+## 🎥 Project Demonstration
 
 <div align="center">
 
-| RoadRunner Simulation | HIL Control Setup |
-|---|---|
-| <!-- ADD: project RoadRunner screenshot --> | <!-- ADD: steering wheel + pedal hardware photo --> |
-| *3D traffic / ego-vehicle scenario* | *Physical HIL control interface* |
-
-| ADAS / V2V Test | MATLAB / Simulink |
-|---|---|
-| <!-- ADD: ADAS event screenshot/GIF --> | <!-- ADD: MATLAB/Simulink model screenshot --> |
-| *Collision / safety scenario* | *Control and data-flow model* |
-
-<!-- ADD: Demo GIF or project video link -->
+| 🕹️ Hardware-in-the-Loop Setup | 🛣️ RoadRunner Highway Scenario |
+|:---:|:---:|
+| <img src="./assets/Hardware_setup.png" width="480" alt="Hardware setup"/> | <img src="./assets/Highway_merge_control.png" width="480" alt="RoadRunner highway merge scenario"/> |
+| **Physical HIL control setup** | **Highway merge control scenario** |
 
 </div>
 
-## 🧩 System Architecture / Workflow
+## 🧩 System Architecture
 
 ```mermaid
 flowchart LR
-    H["🎮 HIL Driving Controls<br/>Steering + Accelerator + Brake"]
-    PC["💻 Simulation Workstation"]
+    H["🎮 Steering Wheel<br/>Accelerator + Brake"]
     M["MATLAB / Simulink"]
-    RR["RoadRunner<br/>3D Scene + Scenario"]
-    V2V["📡 V2V Data Exchange"]
-    ADAS["🛡️ ADAS / Safety Logic"]
-    LOG["📊 Simulation Data<br/>Analysis & Validation"]
+    RR["RoadRunner<br/>3D Vehicle Simulation"]
+    V2V["📡 V2V<br/>Vehicle Data"]
+    ADAS["🛡️ ADAS<br/>Safety Logic"]
+    R["📊 Results &<br/>Scenario Analysis"]
 
-    H --> PC
-    PC --> M
+    H --> M
     M <--> RR
     RR --> V2V
     V2V --> ADAS
     M --> ADAS
     ADAS --> M
-    M --> LOG
-    RR --> LOG
+    M --> R
+    RR --> R
+```
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| **Simulation** | MATLAB, Simulink, RoadRunner |
+| **Automotive** | ADAS, AEB, V2V, Vehicle Control |
+| **HIL Hardware** | Steering Wheel, Accelerator, Brake Pedals |
+| **Integration** | MATLAB–RoadRunner workflow, RoadRunner API |
+
+## 📊 Results & Highlights
+
+| Area | Status |
+|---|---|
+| HIL driving controls | 🚧 In development |
+| RoadRunner simulation | 🚧 In development |
+| MATLAB–RoadRunner integration | 🚧 In development |
+| V2V functionality | 🚧 In development |
+| ADAS functionality | 🚧 In development |
+| Performance metrics | <!-- ADD: verified latency / accuracy / test count --> |
+
+> Quantitative performance values will be added after testing and validation.
+
+## 💻 Requirements
+
+- MATLAB
+- Simulink
+- RoadRunner
+- RoadRunner Scenario
+- Compatible steering-wheel and pedal controller
+- Required MATLAB/Simulink toolboxes for implemented modules
+
+<!-- ADD: exact MATLAB/RoadRunner versions after final environment is frozen -->
+
+## 🚀 Getting Started
+
+### 1. Clone
+
+```bash
+git clone https://github.com/Abhishek3m4/V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator.git
+cd V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator
+```
+
+### 2. Open the project
+
+Open the MATLAB/Simulink project and configure the local **RoadRunner installation and project path**.
+
+### 3. Connect the HIL controller
+
+Connect the steering wheel, accelerator and brake pedals to the PC and verify that the controller is detected.
+
+### 4. Run the simulation
+
+Launch the MATLAB/Simulink control workflow and the corresponding RoadRunner scenario.
+
+```matlab
+% ADD: final MATLAB launch script / Simulink model name
+```
+
+## 📁 Project Structure
+
+```text
+V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator/
+├── assets/                 # Project screenshots and visual assets
+├── matlab/                 # MATLAB scripts and functions
+├── simulink/               # Simulink models
+├── roadrunner/             # RoadRunner scenes and scenarios
+├── hardware/               # HIL controller integration
+├── v2v/                    # V2V communication modules
+├── adas/                   # ADAS and safety logic
+├── results/                # Simulation results and analysis
+├── README.md               # Project documentation
+└── LICENSE                 # MIT License
+```
+
+<!-- ADD: update the tree when the corresponding folders are committed -->
+
+## 🏆 Achievements / Publications
+
+<!-- ADD: project-specific award, hackathon result, publication or DOI if applicable -->
+
+## 👨‍💻 Author
+
+<div align="center">
+
+### Abhishek Ahirrao
+
+**B.Tech E&TC | Embedded Systems • Automotive • VLSI**
+
+<a href="https://github.com/Abhishek3m4">
+<img src="https://img.shields.io/badge/GitHub-Abhishek3m4-181717?logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="mailto:abhishekahirrao3m4@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white" alt="Email"/>
+</a>
+
+<!-- ADD: LinkedIn -->
+<!-- ADD: Portfolio -->
+
+</div>
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+
+**Automotive Simulation • ADAS • V2V • Hardware-in-the-Loop**
+
+</div>
