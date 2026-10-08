@@ -44,13 +44,13 @@ The simulator provides a controlled virtual environment for vehicle control, col
 ### 🕹️ Hardware-in-the-Loop Setup
 
 <p align="center">
-  <img src="./assets/Hardware_setup.png" width="850" alt="Hardware-in-the-Loop setup"/>
+  <img src="./assets/Hardware_setup.png" width="850" alt="Hardware-in-the-Loop Setup">
 </p>
 
 ### 🛣️ RoadRunner Highway Scenario
 
 <p align="center">
-  <img src="./assets/Highway_merge_control.jpeg" width="850" alt="RoadRunner highway merge control scenario"/>
+  <img src="./assets/Highway_merge_control.jpeg" width="850" alt="RoadRunner Highway Merge Scenario">
 </p>
 
 ---
@@ -83,3 +83,153 @@ flowchart LR
 
     M --> R
     RR --> R
+```
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| **Simulation** | MATLAB, Simulink, RoadRunner |
+| **Automotive** | ADAS, AEB, V2V, Vehicle Control |
+| **HIL Hardware** | Steering Wheel, Accelerator, Brake Pedals |
+| **Integration** | MATLAB–RoadRunner Workflow, RoadRunner API |
+
+---
+
+## 📊 Results & Highlights
+
+| Area | Status |
+|---|---|
+| HIL driving controls | 🚧 In Development |
+| RoadRunner simulation | 🚧 In Development |
+| MATLAB–RoadRunner integration | 🚧 In Development |
+| V2V functionality | 🚧 In Development |
+| ADAS functionality | 🚧 In Development |
+| Performance metrics | 🚧 Testing and validation in progress |
+
+> Quantitative performance values will be added after testing and validation.
+
+---
+
+## 💻 Requirements
+
+- MATLAB
+- Simulink
+- RoadRunner
+- RoadRunner Scenario
+- Compatible steering-wheel and pedal controller
+- Required MATLAB/Simulink toolboxes for implemented modules
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Abhishek3m4/V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator
+```
+
+### 3. Open the Project
+
+Open the MATLAB/Simulink project and configure the local **RoadRunner installation and project path**.
+
+### 4. Connect the HIL Controller
+
+Connect the steering wheel, accelerator, and brake pedals to the PC and verify that the controller is detected.
+
+### 5. Run the Simulation
+
+Launch the MATLAB/Simulink control workflow and the corresponding RoadRunner scenario.
+
+```matlab
+% Start the MATLAB/Simulink control workflow
+% Load the required RoadRunner scenario
+% Run the vehicle simulation
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator/
+│
+├── assets/
+│   ├── Hardware_setup.png
+│   └── Highway_merge_control.jpeg
+│
+├── matlab/
+│   └── MATLAB scripts and functions
+│
+├── simulink/
+│   └── Simulink models
+│
+├── roadrunner/
+│   └── RoadRunner scenes and scenarios
+│
+├── hardware/
+│   └── HIL controller integration
+│
+├── v2v/
+│   └── V2V communication modules
+│
+├── adas/
+│   └── ADAS and safety logic
+│
+├── results/
+│   └── Simulation results and analysis
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🏆 Achievements / Publications
+
+Project-specific achievements, publications, and validation results will be added as the project progresses.
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+### Abhishek Ahirrao
+
+**B.Tech E&TC | Embedded Systems • Automotive • VLSI**
+
+<br>
+
+<a href="https://github.com/Abhishek3m4">
+<img src="https://img.shields.io/badge/GitHub-Abhishek3m4-181717?logo=github&logoColor=white" alt="GitHub">
+</a>
+
+<a href="mailto:abhishekahirrao3m4@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white" alt="Email">
+</a>
+
+</div>
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+
+**Automotive Simulation • ADAS • V2V • Hardware-in-the-Loop**
+
+</div>
