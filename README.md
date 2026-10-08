@@ -44,13 +44,13 @@ The simulator provides a controlled virtual environment for vehicle control, col
 ### 🕹️ Hardware-in-the-Loop Setup
 
 <p align="center">
-  <img src="./assets/Hardware_setup.png" width="850" alt="Hardware-in-the-Loop Setup">
+  <img src="./assests/Hardware_setup.png" width="850" alt="Hardware-in-the-Loop Setup">
 </p>
 
 ### 🛣️ RoadRunner Highway Scenario
 
 <p align="center">
-  <img src="./assets/Highway_merge_control.jpeg" width="850" alt="RoadRunner Highway Merge Scenario">
+  <img src="./assests/Highway_merge_control.jpeg" width="850" alt="RoadRunner Highway Merge Scenario">
 </p>
 
 ---
@@ -163,7 +163,7 @@ Launch the MATLAB/Simulink control workflow and the corresponding RoadRunner sce
 ```text
 V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator/
 │
-├── assets/
+├── assests/
 │   ├── Hardware_setup.png
 │   └── Highway_merge_control.jpeg
 │
