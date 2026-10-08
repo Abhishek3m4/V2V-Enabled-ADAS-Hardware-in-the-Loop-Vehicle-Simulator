@@ -41,7 +41,7 @@ The simulator provides a controlled virtual environment for vehicle control, col
 
 | 🕹️ Hardware-in-the-Loop Setup | 🛣️ RoadRunner Highway Scenario |
 |:---:|:---:|
-| <img src="https://raw.githubusercontent.com/Abhishek3m4/V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator/main/assets/Hardware_setup.png" width="480" alt="Hardware setup"/> | <img src="https://raw.githubusercontent.com/Abhishek3m4/V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator/main/assets/Highway_merge_control.jpeg" width="480" alt="RoadRunner highway merge scenario"/> |
+| <img src="https://github.com/Abhishek3m4/V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator/blob/main/assets/Hardware_setup.png?raw=true" width="480" alt="Hardware setup"/> | <img src="https://github.com/Abhishek3m4/V2V-Enabled-ADAS-Hardware-in-the-Loop-Vehicle-Simulator/blob/main/assets/Highway_merge_control.jpeg?raw=true" width="480" alt="RoadRunner highway merge scenario"/> |
 | **Physical HIL control setup** | **Highway merge control scenario** |
 
 </div>
